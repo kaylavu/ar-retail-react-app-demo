@@ -1,17 +1,22 @@
 {
   "name": "client",
-  "hash": "de8891ff1936f3d37a60",
+  "hash": "dcc857dd345d2624aefc",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "/Users/kayla/web-development/ar/retail-react-app-demo/build",
   "assetsByChunkName": {
     "main": [
-      "main.js"
+      "main.js",
+      "main.cff26b4b145ad2135926.hot-update.js"
     ],
     "pages-home": [
       "pages-home.js"
     ],
     "pages-my-new-route": [
-      "pages-my-new-route.js"
+      "pages-my-new-route.js",
+      "pages-my-new-route.cff26b4b145ad2135926.hot-update.js"
+    ],
+    "pages-ar-values": [
+      "pages-ar-values.js"
     ],
     "pages-login": [
       "pages-login.js"
@@ -84,7 +89,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1003508,
+      "size": 1004719,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -572,6 +577,31 @@
     },
     {
       "type": "asset",
+      "name": "pages-ar-values.js",
+      "size": 4846,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "pages-ar-values.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-ar-values"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-ar-values"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-my-new-route.js",
       "size": 2742,
       "emitted": false,
@@ -581,6 +611,33 @@
         "javascriptModule": false,
         "related": {
           "sourceMap": "pages-my-new-route.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-my-new-route"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-my-new-route"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "pages-my-new-route.cff26b4b145ad2135926.hot-update.js",
+      "size": 2725,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cff26b4b145ad2135926",
+        "related": {
+          "sourceMap": "pages-my-new-route.cff26b4b145ad2135926.hot-update.js.map"
         }
       },
       "chunkNames": [
@@ -622,6 +679,33 @@
     },
     {
       "type": "asset",
+      "name": "main.cff26b4b145ad2135926.hot-update.js",
+      "size": 360,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cff26b4b145ad2135926",
+        "related": {
+          "sourceMap": "main.cff26b4b145ad2135926.hot-update.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "_1242.js",
       "size": 284,
       "emitted": false,
@@ -642,6 +726,25 @@
         "_1242"
       ],
       "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.cff26b4b145ad2135926.hot-update.json",
+      "size": 49,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "cff26b4b145ad2135926"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
     }
   ],
   "namedChunkGroups": {
@@ -657,11 +760,14 @@
         },
         {
           "name": "main.js"
+        },
+        {
+          "name": "main.cff26b4b145ad2135926.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+      "filteredAuxiliaryAssets": 3,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -695,6 +801,26 @@
       "assets": [
         {
           "name": "pages-my-new-route.js"
+        },
+        {
+          "name": "pages-my-new-route.cff26b4b145ad2135926.hot-update.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-ar-values": {
+      "name": "pages-ar-values",
+      "chunks": [
+        "pages-ar-values"
+      ],
+      "assets": [
+        {
+          "name": "pages-ar-values.js"
         }
       ],
       "filteredAssets": 0,
@@ -990,7 +1116,8 @@
     {
       "id": "main",
       "files": [
-        "main.js"
+        "main.js",
+        "main.cff26b4b145ad2135926.hot-update.js"
       ]
     },
     {
@@ -1008,7 +1135,14 @@
     {
       "id": "pages-my-new-route",
       "files": [
-        "pages-my-new-route.js"
+        "pages-my-new-route.js",
+        "pages-my-new-route.cff26b4b145ad2135926.hot-update.js"
+      ]
+    },
+    {
+      "id": "pages-ar-values",
+      "files": [
+        "pages-ar-values.js"
       ]
     },
     {
